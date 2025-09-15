@@ -6,7 +6,7 @@
 /*   By: aberenge <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/11 15:07:32 by aberenge          #+#    #+#             */
-/*   Updated: 2025/09/11 15:24:43 by aberenge         ###   ########.fr       */
+/*   Updated: 2025/09/15 16:11:12 by aberenge         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -183,7 +183,7 @@ static void printDouble(double value)
 
 void	ScalarConverter::convert(const std::string& literal)
 {
-	double	value;
+	double	value = 0.0;
 
 	if (isSpecial(literal))
 	{
